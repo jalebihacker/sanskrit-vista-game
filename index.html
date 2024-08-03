@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sanskrit Word Matching Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>Sanskrit Word Matching Game</h1>
+    <div class="word-lists">
+      <div class="sanskrit-words">
+        <h2>Sanskrit Words</h2>
+        <ul id="sanskrit-list">
+          <li data-translation="apple">सेब</li>
+          <li data-translation="sun">सूर्यः</li>
+          <li data-translation="water">जलम्</li>
+          <li data-translation="fire">अग्निः</li>
+          <li data-translation="earth">भूमिः</li>
+        </ul>
+      </div>
+      <div class="english-words">
+        <h2>English Translations</h2>
+        <ul id="english-list">
+          <li draggable="true" data-translation="apple">Apple</li>
+          <li draggable="true" data-translation="sun">Sun</li>
+          <li draggable="true" data-translation="water">Water</li>
+          <li draggable="true" data-translation="fire">Fire</li>
+          <li draggable="true" data-translation="earth">Earth</li>
+        </ul>
+      </div>
+    </div>
+    <div id="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
