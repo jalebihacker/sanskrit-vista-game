@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanskrit Puzzle Quest</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Sanskrit Word Matching</h1>
+        <p>Match the Sanskrit words with their English meanings:</p>
+        <div class="cards">
+            <div class="card" data-word="gajaḥ">गजः</div>
+            <div class="card" data-word="siṃhaḥ">सिंहः</div>
+            <div class="card" data-word="aśvaḥ">अश्वः</div>
+            <div class="card" data-word="mayūraḥ">मयूरः</div>
+            <div class="card" data-word="elephant">Elephant</div>
+            <div class="card" data-word="lion">Lion</div>
+            <div class="card" data-word="horse">Horse</div>
+            <div class="card" data-word="peacock">Peacock</div>
+        </div>
+        <button id="checkButton">Check</button>
+        <p id="result"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
